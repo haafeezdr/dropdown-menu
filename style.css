@@ -1,6 +1,6 @@
 :root {
-  --primary-color: coral;
-  --secondary-color: chocolate;
+  --primary-color: #000010;
+  --secondary-color: #000030;
 }
 
 * {
@@ -91,7 +91,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 0 2rem;
-  background: coral;
+  background: var(--secondary-color);
 }
 
 #showcase h1 {
